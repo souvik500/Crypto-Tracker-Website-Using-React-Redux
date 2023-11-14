@@ -1,0 +1,13 @@
+.select-days{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    /* margin: 1rem; */
+    margin-left: 2.5rem;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+}

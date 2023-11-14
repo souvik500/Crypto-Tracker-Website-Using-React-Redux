@@ -1,0 +1,10 @@
+.pagination-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem 3rem 0rem;
+}
+
+.page-num span{
+    margin-right: 1rem;
+}

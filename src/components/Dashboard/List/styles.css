@@ -1,0 +1,221 @@
+.list-row{
+    display:flex;    
+    justify-content: space-between;
+    align-items: center;
+    gap:0.5rem;
+    margin: 0rem 1.5rem;
+    padding: 1rem;
+    border-bottom: 2px solid var(--darkgrey);
+    border-radius: 0.3rem;
+    cursor:pointer;
+}
+
+/* .listROW:hover{
+    background-color: var(--red);
+    transition: all 0.3s;
+}  */
+
+
+.list-row :hover{
+    background-color: var(--darkgrey);
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.list-row td{
+    text-align: left;
+    width:18%;
+    margin: 0;
+}
+
+.mobile-td-mkt-cap{
+    display:none;
+}
+
+/* .td-align-right{
+    text-align: right;
+} */
+
+.td-image{
+    width:3rem !important;
+    margin-right: 2rem;
+}
+
+.td-current-price h4{
+    margin-left: 1.5rem;
+}
+
+.watchlist-icon-list:hover {
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  
+  
+  .watchlist-icon-red-list:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+    transition: all 0.3s;
+  }
+
+  .watchlist-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    color: var(--green);
+    padding: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem !important;
+    margin-left:3rem;
+  }
+  
+  .watchlist-icon-red-list {
+    border: 2px solid var(--red);
+    color: var(--red);
+  }
+
+@media only  screen and (max-width:1200px){
+    .td-icon{
+        display: none;
+    }
+
+    .list-row td,p,div,h4 {
+        font-size: 0.9rem !important;
+      }
+}
+
+/* @media only  screen and (max-width:800px){
+    .td-icon{
+        display: none;
+    }
+
+    .chip-flex{
+        margin-right:0.5rem !important
+    }
+
+    .list-row {
+        width: 100%;
+        padding: 1.5rem 0rem;
+      }
+
+    .list-row td{
+        font-size: 0.5rem !important;
+    }
+    .price-chip{
+        margin-right:0.5rem !important
+    }
+
+    .td-image {
+        height: 2rem;
+        width: 2rem;
+      }
+
+    .td-info{
+        width: 6rem !important;
+      }
+    
+    .td-current-price{
+       text-align: center !important;
+    }
+
+    .desktop-td-mkt-cap{
+        display: none;
+    }   
+} */
+
+@media only screen and (max-width: 800px) {
+    
+    .chip-flex{
+        margin-right:0.5rem !important
+    }
+
+    .td-icon{
+        display: none !important;
+    }
+
+    .mobile-td-mkt-cap{
+      display: block !important;
+      text-align: left !important;
+      margin-left: -3rem !important;
+    }
+
+    .td-current-price{
+        text-align: center !important;
+     }
+
+    .mob-tot-vol{
+        display: none;
+    }
+
+    .price-chip{
+        min-width:35px !important;
+    }
+
+    .list-row td,p,div,h4 {
+      font-size: 0.7rem !important;
+    }
+
+    .list-row{
+        margin: 0rem 0.5rem;
+    }
+
+    .desktop-td-mkt-cap{
+        display: none;
+    } 
+  
+    .td-info {
+      width: 4rem !important;
+      margin-right: 1.5rem !important;
+    }
+  
+    .td-image {
+      height: 2rem !important;
+      width: 2rem !important;
+      margin-right: 0.5rem !important;
+    }
+  }
+
+  @media only  screen and (max-width:540px){
+    .td-icon{
+        display: none;
+    }
+
+    .list-row td,p,div,h4 {
+        font-size: 0.6rem !important;
+      }
+
+      .price-chip{
+        min-width:30px !important;
+    }
+  }
+
+  @media only  screen and (max-width:540px){
+    
+        .watchlist-icon-list {
+            display: none;
+         /* font-size: 0.7rem !important;
+         padding: 0.15rem;
+         margin-left:0rem;
+         height: 1rem;
+         width: 1rem !important; */
+        }
+    
+        .watchlist-icon-red-list {
+            display:none;
+            /* font-size: 0.7rem !important;
+            padding: 0.15rem;
+            margin-left:0rem; */
+          }
+      }
+
+      
+      
+    
+      
+    
+    
+    
+    
+    

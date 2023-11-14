@@ -1,0 +1,35 @@
+.coin-page-component{
+    background-color: var(--darkgrey);
+    margin:1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display:block;
+    width:90%;
+  }
+
+  /* .grey-wrapper{
+    margin:auto;
+  } */
+  
+  /* .grey-wrapper {
+    background-color: var(--darkgrey);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  } */
+
+  .chart-container{
+    background-color: var(--darkgrey);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+    width: 90%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 1rem;
+    margin: 0rem 1.5rem;
+  }

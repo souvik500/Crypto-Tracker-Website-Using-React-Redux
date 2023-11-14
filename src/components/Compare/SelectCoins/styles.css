@@ -1,0 +1,14 @@
+.coins-flex-parent{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: center; */
+}
+
+.coins-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0.5rem;
+    margin:0rem 2rem;
+}
